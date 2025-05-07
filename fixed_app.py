@@ -17,6 +17,7 @@ import base64
 import json
 import requests
 import time
+import torch
 
 # Page configuration
 st.set_page_config(page_title="VisionText AI Hub", page_icon="🧠", layout="wide")
