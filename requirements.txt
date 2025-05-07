@@ -11,3 +11,4 @@ streamlit-webrtc
 tensorflow
 tf_keras
 transformers
+torch
