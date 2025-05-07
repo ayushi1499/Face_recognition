@@ -1,0 +1,9 @@
+streamlit>=1.32.0
+numpy>=1.24.0
+opencv-python-headless>=4.9.0
+Pillow>=10.0.0
+psycopg2-binary>=2.9.9
+streamlit-webrtc>=0.45.0
+av>=10.0.0
+requests>=2.31.0
+transformers>=4.40.0
