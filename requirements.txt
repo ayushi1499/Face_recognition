@@ -1,3 +1,4 @@
+# Streamlit and core dependencies
 streamlit>=1.32.0
 numpy>=1.24.0
 opencv-python-headless>=4.9.0
@@ -6,4 +7,12 @@ psycopg2-binary>=2.9.9
 streamlit-webrtc>=0.45.0
 av>=10.0.0
 requests>=2.31.0
+pandas>=2.2.0
+
+# Transformers and deep learning backends
 transformers>=4.40.0
+torch>=2.1.0           # Needed for transformers
+tensorflow>=2.15.0     # Needed for DeepFace and optionally transformers
+
+# Face recognition library
+deepface>=0.0.83
