@@ -1,20 +1,18 @@
-# Core packages
-streamlit>=1.32.0
-numpy>=1.24.0
-opencv-python-headless>=4.9.0
-Pillow>=10.0.0
-psycopg2-binary>=2.9.9
-streamlit-webrtc>=0.45.0
-av>=10.0.0
-requests>=2.31.0
-pandas>=2.2.0
+# Core
+streamlit==1.32.0
+numpy==1.24.4
+opencv-python-headless==4.9.0.80
+Pillow==10.2.0
+psycopg2-binary==2.9.9
+pandas==2.2.2
+requests==2.31.0
+av==10.0.0
+streamlit-webrtc==0.45.0
 
-# ML and AI
-transformers>=4.40.0
+# ML / AI
+transformers==4.38.2
 torch==2.1.2
 torchvision==0.16.2
-tensorflow==2.13.0      # Downgraded to avoid tf-keras issues
-# tf-keras               # Only if you want to keep TensorFlow 2.19+
-
-# Face analysis
-deepface>=0.0.83
+tensorflow==2.13.0     # Compatible without tf-keras issue
+deepface==0.0.83
+tf_keras
