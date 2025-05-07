@@ -9,4 +9,5 @@ requests
 streamlit
 streamlit-webrtc
 tensorflow
+tf_keras
 transformers
