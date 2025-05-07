@@ -1,4 +1,4 @@
-# Streamlit and core dependencies
+# Core packages
 streamlit>=1.32.0
 numpy>=1.24.0
 opencv-python-headless>=4.9.0
@@ -9,10 +9,12 @@ av>=10.0.0
 requests>=2.31.0
 pandas>=2.2.0
 
-# Transformers and deep learning backends
+# ML and AI
 transformers>=4.40.0
-torch>=2.1.0           # Needed for transformers
-tensorflow>=2.15.0     # Needed for DeepFace and optionally transformers
+torch==2.1.2
+torchvision==0.16.2
+tensorflow==2.13.0      # Downgraded to avoid tf-keras issues
+# tf-keras               # Only if you want to keep TensorFlow 2.19+
 
-# Face recognition library
+# Face analysis
 deepface>=0.0.83
