@@ -1,15 +1,16 @@
-Pillow
-av
-deepface
+matplotlib
 numpy
-opencv-python
 pandas
-psycopg2-binary
-requests
+opencv-python-headless  # avoids GUI-related libGL.so.1 issues
+torch
+Pillow
+transformers
+mtcnn
 streamlit
 streamlit-webrtc
-tensorflow
-tf_keras
-transformers
-torch
-transformers
+av
+Pillow
+watchdog
+deepface
+keras==2.11.0
+tensorflow==2.11.0
